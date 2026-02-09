@@ -1,0 +1,11 @@
+.title_input,.content_input{
+    width: 70%;
+    padding:1rem;
+    border: black solid 1px;
+}
+.content_input:hover,.title_input:hover{
+    border: blue solid 1px;
+}
+.content_input,.title_input:focus{
+    border: orange solid 1px;
+}

@@ -178,9 +178,7 @@ exports.imageSizeReducer = async(req,res)=>{
                 message:"file format not supported"
             })
         }
-        
-
-
+    
         res.status(201).json({
             success:true,
             imageUrl:response.secure_url,

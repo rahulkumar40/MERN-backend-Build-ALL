@@ -94,8 +94,6 @@ exports.login = async(req, res)=>{
                 {
                     expiresIn:"2h"
                 })
-
-
             // console.log(user) // tesing phase 1 
             // const oldUser = {...user, token};
             
