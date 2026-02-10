@@ -6,11 +6,14 @@ function Notes() {
     function doWork(data){
         console.log(data)
     }
+    function catchData(e){
+        console.log(e.data.title);
+    }
   return (
     <div>
         <h2>Create Your Blog</h2>
         <div>
-            <form action="" onSubmit={handleSubmit(doWork)}>
+            <form action="" onSubmit={handleSubmit(doWork)} >
                 <div>
 
                     <div>Title</div>
